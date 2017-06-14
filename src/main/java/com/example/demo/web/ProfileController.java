@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 @RequestMapping("/")
 public class ProfileController {
+
+	public String index() {
+		return "teamlist";
+	}
+
 	@RequestMapping("/index")
 	public String index(@RequestParam Integer param, Model model) {
 		if (param == 1) {
