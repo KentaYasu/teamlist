@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-清水紀行
+しみずのりゆきです
 </body>
 </html>

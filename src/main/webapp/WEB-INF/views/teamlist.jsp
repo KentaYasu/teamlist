@@ -1,8 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
+<<<<<<< HEAD
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+=======
+	pageEncoding="UTF-8"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+>>>>>>> 348b73887483d94a3d3fc602bb249288e98e3796
 <!DOCTYPE html>
-<html lang = "ja">
+<html lang="ja">
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>

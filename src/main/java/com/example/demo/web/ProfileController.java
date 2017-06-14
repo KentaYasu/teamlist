@@ -32,5 +32,5 @@ public class ProfileController {
 		}
 		return name;
 	}
-	
+
 }

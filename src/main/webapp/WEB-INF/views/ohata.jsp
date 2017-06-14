@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-大畑良輝
+おおはたよしきです
 </body>
 </html>
