@@ -8,30 +8,32 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 @RequestMapping("/")
 public class ProfileController {
+	
 	@RequestMapping("/index")
 	public String index() {
 		return "teamlist";
 	}
 
 	@RequestMapping("/member")
-	public String index(@RequestParam Integer param, Model model) {
-		if (param == 1) {
+	public String index(@RequestParam Integer id, Model model) {
+		System.out.println("param=" + id);
+		if (id == 1) {
 			return "adati";
 		}
-		if (param == 2) {
-			return "adati";
+		if (id == 2) {
+			return "ohata";
 		}
-		if (param == 3) {
-			return "adati";
+		if (id == 3) {
+			return "kanemitsu";
 		}
-		if (param == 4) {
-			return "adati";
+		if (id == 4) {
+			return "sato";
 		}
-		if (param == 5) {
-			return "adati";
+		if (id == 5) {
+			return "shimizu";
 		}
-		if (param == 6) {
-			return "adati";
+		if (id == 6) {
+			return "yasu";
 		}
 		return null;
 	}
